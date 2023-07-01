@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="colour.css">
+    <script src="https://kit.fontawesome.com/da2ee5df46.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#Portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT ME</a></li>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+            </nav>
+            <div class="Details">
+                <h1>Hi, I'm <span>Srushti</span><br>Walli</h1>
+                <a href="image/Resume_Srushti.pdf" download class="btn btn2">DOWNLOAD CV</a>
+                <div class="circle-image"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!------------About---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/profile.png" alt="Description of the image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a passionate and driven AI and ML enthusiast, currently pursuing my final year in Computer Science and Engineering. With an insatiable curiosity and a relentless pursuit of knowledge, I am dedicated to pushing the boundaries of artificial intelligence and machine learning to make a positive impact on society.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Natural Language Processing</span><br>Language based translation applications</li>
+                            <li><span>Machine Learning</span><br>Algorithms for analysis</li>
+                            <li><span>C++</span><br>Object Oriented Programming</li>
+                            <li><span>Softskills</span><br>Effective communication skill and group management</li>
+                        </ul>
+
+
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024-Current</span><br>Walchand Institute Of Technology Solapur</li>
+                            <li><span>2020-12th</span><br>P.D.Jain Vidhayalay Ansing</li>
+                            <li><span>2018-10th</span><br>P.D.Jain VIdhyalay Ansing</li>
+                        </ul>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!----------------SERVICES----------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Car Game</h2>
+                    <p> It utilizes the console screen to create a game interface where the player controls a car and tries to avoid colliding with incoming enemy cars.</p>
+                     <a href="https://github.com/Srushtiwalli01/Car-Game">GITHUB LINK</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Development</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis necessitatibus suscipit officia cum ipsa deleniti beatae nostrum nisi sed aliquid, labore sint. Minus necessitatibus dolores dolore optio sint velit blanditiis.</p>
+                     <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis necessitatibus suscipit officia cum ipsa deleniti beatae nostrum nisi sed aliquid, labore sint. Minus necessitatibus dolores dolore optio sint velit blanditiis.</p>
+                     <a href="#">Learn more</a>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+    
+    <!------------------------------------------PORTFOLIO--------------------------------------->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Certifications</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work-1.jpg" alt="">
+                    <div class="layer">
+                        <h3>AI Primer Certification</h3>
+                        <p>AI Primer Certification is a comprehensive program designed to provide individuals with a foundational understanding of artificial intelligence (AI) and its practical applications.
+                        </p>
+                        <a href="https://drive.google.com/file/d/1DSsvJYNRLDsv88_kZ7WCfiHOjemwTl3f/view?usp=drive_link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="image/work-1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Web Development</h3>
+                        <p>The training consisted of HTML, CSS, Bootstrap, DBMS, PHP, JS, React, and Final Project 
+                            modules.
+                        </p>
+                        <a href="https://drive.google.com/file/d/18MwS2hu9KFfN1AUJlCM-8CamEQpF-65-/view?usp=drive_link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="image/work-1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Introduction to Artificial Intelligent</h3>
+                        <p>Basices for implementing and analysing program using AI.
+                        </p>
+                        <a href="https://drive.google.com/file/d/1B7VsPeEUH8g7mwMKhSX9zX0FN0cXKb8N/view?usp=drive_link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                    
+
+                    
+                </div>
+
+            </div>
+            <a href="#" class="btn">See more</a>
+
+        </div>
+    </div>
+
+    <!-----------------------------------CONTACT---------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left"> 
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>srushtiwalli183@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8149060198</p>
+                <div class="socia-media">
+                    <a href="https://www.instagram.com/srushti_walli/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/WalliSrushti"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/srushti-walli-b33399239/"><i class="fa-brands fa-linkedin"></i></a>
+
+                    
+                </div>
+            </div>
+            <div class="contact-right"> 
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }                           
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+
+
+    </script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function toggleMenu() {
+        sidemenu.classList.toggle("active");
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyUyWKTx3crBJ7hLYzY7PP1zwVjewm7iGPeDHG5N4DIMMwXex-nMyl0J2boKaBILJgIhg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+   
+</body>
+
+</html>
