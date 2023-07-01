@@ -14,7 +14,7 @@
     /* Clips the image within the circle */
     float: right;
     /* Positions the image on the right side */
-    background-image: url('image/photo.png');
+    background-image: url('photo.png');
     background-size: cover;
     background-position: center center;
 }
